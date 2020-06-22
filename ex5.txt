@@ -1,0 +1,15 @@
+    1  mkdir -pv a/b/c/d
+    2  cd a/b/c
+    3  rmdir d/
+    4  cat >  test.txt
+    5  cd ~
+    6  cat a/b/c/test.txt 
+    7  cd a/b/c
+    8  mv test.txt ../
+    9  cd ..
+   10  rmdir c/
+   11  cd ~
+   12  ls -la a
+   13  rm -r a/b
+   14  rmdir a
+   15  history | less >  ex5.txt
