@@ -31,16 +31,16 @@ if choiceOfFunction in listofchoice:
      
 if choiceOfFunction==1:
      addi=add(n1,n2,n3,n4)     
-     print('The addition of n1+n2+n3+n4 is: ' + str(addi))  
+     print('The addition of the n1+n2+n3+n4 is: ' + str(addi))  
 elif choiceOfFunction==2:
      diff=sub(n1,n2,n3,n4)     
-     print('The subtraction of n1-n2-n3-n4 is: ' + str(diff))  
+     print('The subtraction of the n1-n2-n3-n4 is: ' + str(diff))  
 elif choiceOfFunction==3:
      multi=mult(n1,n2,n3,n4)     
-     print('The multiplication of n1*n2*n3*n4 is: ' + str(multi))  
+     print('The multiplication of the n1*n2*n3*n4 is: ' + str(multi))  
 elif choiceOfFunction==4:
      divi=div(n1,n2,n3,n4)     
-     print('The division of n1/n2/n3/n4 is: ' + str(divi))            
+     print('The division of the n1/n2/n3/n4 is: ' + str(divi))            
 else:    
-    print('invalid entry!please enter choice between 1 to 4 only.')
+    print('invalid entry!please enter choice between 1 to 4 only!')
     
