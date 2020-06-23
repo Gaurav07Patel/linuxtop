@@ -1,0 +1,11 @@
+    1  mkdir -p a/b/c/d
+    2  cd a/b/c
+    3  rmdir d
+    4  cat > test.txt
+    5  cd
+    6  cat a/b/c/test.txt 
+    7  mv a/b/c/test.txt  a/b
+    8  rmdir a/b/c
+    9  ls -la a
+   10  rm -r a/b
+   11  history | less > lab6.txt
